@@ -1,11 +1,15 @@
+import sys
+
 #################################################
 #               Class Main                      #
 #################################################
 class Main:
     pass
 
+#main function
 def main():
-    pass
+
+    app = QApplication(sys.argv)
 
 if __name__=='__main__':
 
