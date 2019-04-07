@@ -1,0 +1,2 @@
+class Pendu:
+    pass
