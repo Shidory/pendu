@@ -8,7 +8,9 @@ from_main, _ = loadUiType(os.path.join(os.path.dirname(__file__), "main.ui"))
 #               Class Main                      #
 #################################################
 class Main(QMainWindow, from_main):
-    pass
+
+    def __init__(self, parent=None):
+        pass
 
 #main function
 def main():
