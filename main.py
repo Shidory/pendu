@@ -3,7 +3,7 @@ from PyQt5.uic import loadUiType
 import sys
 import os
 
-from_main, _ = loadUiType()
+from_main, _ = loadUiType(os.path.join(os.path.dirname(__file__), "main.ui"))
 #################################################
 #               Class Main                      #
 #################################################
