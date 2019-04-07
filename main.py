@@ -7,7 +7,7 @@ from_main, _ = loadUiType(os.path.join(os.path.dirname(__file__), "main.ui"))
 #################################################
 #               Class Main                      #
 #################################################
-class Main:
+class Main(QMainWindow, from_main):
     pass
 
 #main function
