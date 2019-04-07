@@ -1,7 +1,9 @@
 from PyQt5.QtWidgets import *
 from PyQt5.uic import loadUiType
 import sys
+import os
 
+from_main, _ = loadUiType()
 #################################################
 #               Class Main                      #
 #################################################
