@@ -19,6 +19,8 @@ class Main(QMainWindow, from_main):
         lettre = self.let_game.text()
         print
 
+    def btn_valider_clicked(self):
+            pass
 
 # main function
 def main():
