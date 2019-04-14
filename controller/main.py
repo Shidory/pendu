@@ -25,7 +25,6 @@ class Main(QMainWindow, from_main):
 
         letter = self.let_game.text()
 
-        request = "SELECT nom INTO animal"
 
 # main function
 def main():
