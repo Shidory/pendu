@@ -24,11 +24,12 @@ class Main(QMainWindow, from_main):
         super(Main, self).__init__(parent)
         self.setupUi(self)
 
+        wordGame = pm.select_animal()
+        print(wordGame)
         self.btn_valider.clicked.connect(self.btn_valider_clicked)
 
     def btn_valider_clicked(self):
 
-        print(pm.select_animal())
         letter = self.let_game.text()
 
         """for i in range (len(result)):
