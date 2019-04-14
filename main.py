@@ -2,6 +2,7 @@ from PyQt5.QtWidgets import *
 from PyQt5.uic import loadUiType
 import sys
 import os
+import sqlite3
 
 from_main, _ = loadUiType(os.path.join(os.path.dirname(__file__), "pendu.ui"))
 
@@ -19,7 +20,9 @@ class Main(QMainWindow, from_main):
 
     def btn_valider_clicked(self):
 
-        lettre = self.let_game.text()
+        letter = self.let_game.text()
+
+
 
 
 # main function
