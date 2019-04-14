@@ -1,8 +1,9 @@
 from PyQt5.QtWidgets import *
 from PyQt5.uic import loadUiType
+from model.
 import sys
 import os
-import model.pendu_model
+
 
 #################################################
 #             Loading view                      #
@@ -23,9 +24,12 @@ class Main(QMainWindow, from_main):
 
     def btn_valider_clicked(self):
 
+        #pm means pendu model
+        pm = Pendu
         letter = self.let_game.text()
 
-        for letter in
+        """for i in range (len(result)):
+            pass"""
 
 # main function
 def main():

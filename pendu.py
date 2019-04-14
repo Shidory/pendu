@@ -2,7 +2,7 @@ from PyQt5.QtWidgets import *
 from PyQt5.uic import loadUiType
 import sys
 import os
-import model.pendu_model
+import model.PenduModel
 
 #################################################
 #             Loading view                      #
