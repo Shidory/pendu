@@ -13,3 +13,5 @@ class PenduModel():
         request = "SELECT nom INTO animal"
         cDb.cursor.execute(request)
         result = cDb.cursor.fetchall()
+
+        return result

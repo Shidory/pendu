@@ -25,6 +25,7 @@ class Main(QMainWindow, from_main):
 
         letter = self.let_game.text()
 
+        for letter in
 
 # main function
 def main():
