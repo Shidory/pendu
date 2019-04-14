@@ -1,6 +1,6 @@
 from PyQt5.QtWidgets import *
 from PyQt5.uic import loadUiType
-from model.
+from model.PenduModel import *
 import sys
 import os
 
@@ -14,6 +14,10 @@ from_main, _ = loadUiType(os.path.join(os.path.dirname(__file__), "../view/pendu
 #################################################
 #               Class Main                      #
 #################################################
+
+#pm means pendu model
+pm = PenduModel()
+
 class Main(QMainWindow, from_main):
 
     def __init__(self, parent=None):
@@ -24,8 +28,7 @@ class Main(QMainWindow, from_main):
 
     def btn_valider_clicked(self):
 
-        #pm means pendu model
-        pm = Pendu
+        print(pm.select_animal())
         letter = self.let_game.text()
 
         """for i in range (len(result)):
