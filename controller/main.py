@@ -32,6 +32,9 @@ class Main(QMainWindow, from_main):
 
         self.btn_valider.clicked.connect(self.btn_valider_clicked)
 
+    def telephone(self):
+        pass
+
     def btn_valider_clicked(self):
 
         letter = self.let_game.text()
