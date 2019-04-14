@@ -10,7 +10,7 @@ class PenduModel():
 
     def select_animal(self):
 
-        request = "SELECT nom INTO animal"
+        request = "SELECT nom FROM animal"
         cDb.cursor.execute(request)
         result = cDb.cursor.fetchall()
 
