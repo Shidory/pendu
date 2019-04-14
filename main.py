@@ -3,6 +3,7 @@ from PyQt5.uic import loadUiType
 import sys
 import os
 import sqlite3
+import model.pendu_model
 
 #################################################
 #             Loading view                      #
@@ -32,8 +33,7 @@ class Main(QMainWindow, from_main):
 
         letter = self.let_game.text()
 
-
-
+        request = "SELECT nom INTO animal"
 
 # main function
 def main():
