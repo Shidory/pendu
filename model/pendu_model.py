@@ -3,6 +3,6 @@
 #################################################
 class PenduModel():
 
-    def insert_animal(self):
+    def select_animal(self):
 
-        pass
+        
