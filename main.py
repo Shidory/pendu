@@ -15,6 +15,8 @@ from_main, _ = loadUiType(os.path.join(os.path.dirname(__file__), "pendu.ui"))
 #################################################
 
 connection = sqlite3.connect("pendu_db.db")
+cursor = connection.cursor()
+
 #################################################
 #               Class Main                      #
 #################################################
