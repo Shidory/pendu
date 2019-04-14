@@ -12,7 +12,7 @@ class PenduModel():
 
     def select_animal(self):
 
-        request = "SELECT id FROM animal"
+        request = "SELECT marque FROM telephone"
         cursor.execute(request)
         result = cursor.fetchall()
 
