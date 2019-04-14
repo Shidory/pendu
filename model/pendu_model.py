@@ -1,2 +1,2 @@
-pass
-
+class PenduModel():
+    pass
