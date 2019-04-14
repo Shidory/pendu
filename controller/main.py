@@ -8,7 +8,7 @@ import model.pendu_model
 #             Loading view                      #
 #################################################
 
-from_main, _ = loadUiType(os.path.join(os.path.dirname(__file__), "view/pendu.ui"))
+from_main, _ = loadUiType(os.path.join(os.path.dirname(__file__), "../view/pendu.ui"))
 
 #################################################
 #               Class Main                      #
