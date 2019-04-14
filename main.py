@@ -9,7 +9,7 @@ import model.pendu_model
 #             Loading view                      #
 #################################################
 
-from_main, _ = loadUiType(os.path.join(os.path.dirname(__file__), "pendu.ui"))
+from_main, _ = loadUiType(os.path.join(os.path.dirname(__file__), "ui/pendu.ui"))
 
 #################################################
 #       Connection to DB                        #
