@@ -14,6 +14,9 @@ class Main(QMainWindow, from_main):
         super(Main, self).__init__(parent)
         self.setupUi(self)
 
+class game_inteligence():
+    pass
+
 #main function
 def main():
 
