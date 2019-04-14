@@ -28,14 +28,13 @@ class Main(QMainWindow, from_main):
         if btn_telephone.clicked():
 
             telephone()
-        wordGame = pm.select_animal()
-        choiceRandom = choice(wordGame)
 
         self.btn_valider.clicked.connect(self.btn_valider_clicked)
 
     def telephone(self):
 
-
+        wordGame = pm.select_animal()
+        choiceRandom = choice(wordGame)
 
     def btn_valider_clicked(self):
 
