@@ -11,7 +11,6 @@ import os
 #################################################
 
 from_main, _ = loadUiType(os.path.join(os.path.dirname(__file__), "../view/pendu.ui"))
-from_choose, _ = loadUiType(os.path.join(os.path.dirname(__file__), "../view/choose.ui"))
 
 #################################################
 #               Class Main                      #
