@@ -2,7 +2,6 @@ from PyQt5.QtWidgets import *
 from PyQt5.uic import loadUiType
 import sys
 import os
-import sqlite3
 import model.pendu_model
 
 #################################################
@@ -10,13 +9,6 @@ import model.pendu_model
 #################################################
 
 from_main, _ = loadUiType(os.path.join(os.path.dirname(__file__), "view/pendu.ui"))
-
-#################################################
-#       Connection to DB                        #
-#################################################
-
-connection = sqlite3.connect("pendu_db.db")
-cursor = connection.cursor()
 
 #################################################
 #               Class Main                      #
