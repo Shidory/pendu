@@ -14,10 +14,17 @@ class Main(QMainWindow, from_main):
         super(Main, self).__init__(parent)
         self.setupUi(self)
 
+#################################################
+#               Class GameInteligence           #
+#################################################
 class GameInteligence():
 
     def pendu(self):
-        pass
+
+        lettre = self.let_game.text()
+        print ("connexion")
+
+        self.btn_valider.clicked.connect(self.pendu())
 
 #main function
 def main():
