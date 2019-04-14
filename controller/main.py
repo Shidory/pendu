@@ -26,14 +26,16 @@ class Main(QMainWindow, from_main):
         self.setupUi(self)
 
         if btn_telephone.clicked():
-            pass
+
+            telephone()
         wordGame = pm.select_animal()
         choiceRandom = choice(wordGame)
 
         self.btn_valider.clicked.connect(self.btn_valider_clicked)
 
     def telephone(self):
-        pass
+
+
 
     def btn_valider_clicked(self):
 
