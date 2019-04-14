@@ -1,17 +1,19 @@
-from model.ConnectionDB import *
+"""from model.ConnectionDB import *
 
 #################################################
 #           Class PenduModel                    #
 #################################################
 
-cDb = ConnectionDB()
-
+cDb = ConnectionDB()"""
+import sqlite3
+connection = sqlite3.connect("pendu.db")
+cursor = connection.cursor()
 class PenduModel():
 
     def select_animal(self):
 
         request = "SELECT nom FROM animal"
-        cDb.cursor.execute(request)
-        result = cDb.cursor.fetchall()
+        cursor.execute(request)
+        result = cursor.fetchall()
 
-        return result
+        #return result

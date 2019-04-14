@@ -6,5 +6,5 @@ import sqlite3
 
 class ConnectionDB():
 
-    connection = sqlite3.connect("../pendu_db.db")
+    connection = sqlite3.connect("pendu.db")
     cursor = connection.cursor()
