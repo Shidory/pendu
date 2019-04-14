@@ -4,39 +4,31 @@ import sys
 import os
 
 from_main, _ = loadUiType(os.path.join(os.path.dirname(__file__), "pendu.ui"))
+
+
 #################################################
 #               Class Main                      #
 #################################################
 class Main(QMainWindow, from_main):
 
     def __init__(self, parent=None):
-
         super(Main, self).__init__(parent)
         self.setupUi(self)
 
-        gi= GameInteligence()
-        self.btn_valider.clicked.connect()
-
-#################################################
-#               Class GameInteligence           #
-#################################################
-class GameInteligence():
-
-    def pendu(self):
-
+        self.gi = GameInteligence()
+        self.btn_valider.clicked.connect(self.gi.pendu())
         lettre = self.let_game.text()
-        print ("connexion")
 
 
-#main function
+# main function
 def main():
-
     app = QApplication(sys.argv)
     window = Main()
     window.show()
     app.exec_()
 
-if __name__=='__main__':
+
+if __name__ == '__main__':
 
     try:
         main()
