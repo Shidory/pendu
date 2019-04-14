@@ -1,2 +1,8 @@
+#################################################
+#           Class PenduModel                    #
+#################################################
 class PenduModel():
-    pass
+
+    def insert_animal(self):
+
+        pass
