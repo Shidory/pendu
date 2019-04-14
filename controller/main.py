@@ -34,8 +34,7 @@ class Main(QMainWindow, from_main):
 
         letter = self.let_game.text()
 
-        """for i in range (len(result)):
-            pass"""
+        for i in range(len(choiceRamdom)):
 
 # main function
 def main():
