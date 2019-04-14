@@ -15,9 +15,9 @@ class Main(QMainWindow, from_main):
         super(Main, self).__init__(parent)
         self.setupUi(self)
 
-        self.gi = GameInteligence()
-        self.btn_valider.clicked.connect(self.gi.pendu())
+        self.btn_valider.clicked.connect(self.btn_valider_clicked)
         lettre = self.let_game.text()
+        print
 
 
 # main function
