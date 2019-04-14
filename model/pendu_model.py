@@ -1,13 +1,15 @@
-import model.ConnectionDB
+from model.ConnectionDB import *
 
 #################################################
 #           Class PenduModel                    #
 #################################################
-cDb = Connection
+
+cDb = ConnectionDB()
+
 class PenduModel():
 
     def select_animal(self):
 
         request = "SELECT nom INTO animal"
-        self.cursor.execute(request)
-        result = self.cursor.fetchall()
+        cDb.cursor.execute(request)
+        result = cDb.cursor.fetchall()
