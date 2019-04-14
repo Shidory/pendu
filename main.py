@@ -16,11 +16,11 @@ class Main(QMainWindow, from_main):
         self.setupUi(self)
 
         self.btn_valider.clicked.connect(self.btn_valider_clicked)
-        lettre = self.let_game.text()
-        print
 
     def btn_valider_clicked(self):
-            pass
+
+        lettre = self.let_game.text()
+
 
 # main function
 def main():
