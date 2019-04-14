@@ -26,9 +26,8 @@ class Main(QMainWindow, from_main):
         self.setupUi(self)
 
         wordGame = pm.select_animal()
-        for marque in wordGame:
-            choice = randrange(marque)
-            print(marque)
+        choix = choice(wordGame)
+        print(choix)
 
         self.btn_valider.clicked.connect(self.btn_valider_clicked)
 
