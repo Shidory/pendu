@@ -1,8 +1,9 @@
-import model.connection_db
+import model.ConnectionDB
 
 #################################################
 #           Class PenduModel                    #
 #################################################
+cDb = Connection
 class PenduModel():
 
     def select_animal(self):
