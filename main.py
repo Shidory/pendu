@@ -15,7 +15,9 @@ class Main(QMainWindow, from_main):
         self.setupUi(self)
 
 class GameInteligence():
-    pass
+
+    def pendu(self):
+        pass
 
 #main function
 def main():
