@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d4182471-9bdf-4ac7-8038-ef7f3bee55a8" name="Default Changelist" comment="" />
+    <list default="true" id="d4182471-9bdf-4ac7-8038-ef7f3bee55a8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/controller/Splash.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/Splash.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +26,11 @@
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controller/Splash.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="15" selection-start-column="15" selection-end-column="15" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -62,6 +68,7 @@
         <option value="$PROJECT_DIR$/model/PenduModel.py" />
         <option value="$PROJECT_DIR$/controller/main.py" />
         <option value="$PROJECT_DIR$/controller/Choose.py" />
+        <option value="$PROJECT_DIR$/controller/Splash.py" />
       </list>
     </option>
   </component>
@@ -276,7 +283,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controller/Splash.py">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
