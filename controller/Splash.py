@@ -26,12 +26,13 @@ class Splash(QMainWindow, from_splash):
     @pyqtSlot(int)
     def progress(self, i):
 
-        self.progress.setValue(i)
+        self.progressBar.setValue(i)
 
         if i == 100:
 
             self.hide()
-
+            choose = Choose(self)
+            choose.show()
 
 class Progress(QThread):
 

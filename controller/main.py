@@ -26,9 +26,9 @@ class Main(QMainWindow, from_main):
         super(Main, self).__init__(parent)
         self.setupUi(self)
 
-        if btn_telephone.clicked():
+        """if btn_telephone.clicked():
 
-            telephone()
+            telephone()"""
 
         self.btn_valider.clicked.connect(self.btn_valider_clicked)
 
@@ -41,8 +41,8 @@ class Main(QMainWindow, from_main):
 
         letter = self.let_game.text()
 
-        for i in range(len(choiceRamdom)):
-            pass
+        """for i in range(len(choiceRamdom)):
+            pass"""
 
 # main function
 def main():
