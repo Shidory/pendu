@@ -1,5 +1,6 @@
 from PyQt5.QtCore import *
 from controller.main import *
+import time
 
 
 from_splash, _ = loadUiType(os.path.join(os.path.dirname(__file__), "../view/splash.ui"))
@@ -16,4 +17,9 @@ class Progress(QThread):
         QThread.__init__(self, parent)
 
     def run(self):
-        pass
+
+        i = 0
+        while i < 101:
+            time.sleep(0.1)
+            self.signal.emit(i)
+            i += 1
