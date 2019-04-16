@@ -10,3 +10,6 @@ class Splash(QMainWindow, from_splash):
 class Progress(QThread):
 
     signal = pyqtSignal(int)
+
+    def __init__(self, parent=None):
+        pass
