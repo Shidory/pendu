@@ -10,6 +10,8 @@ class Splash(QMainWindow, from_splash):
     def __init__(self, parent=None):
 
         super(Splash, self).__init__(parent)
+        QMainWindow.__init__(self)
+        self.setupUi(self)
 
 class Progress(QThread):
 
