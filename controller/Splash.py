@@ -9,6 +9,8 @@ class Splash(QMainWindow, from_splash):
 
     def __init__(self, parent=None):
 
+        super(Splash, self).__init__(parent)
+
 class Progress(QThread):
 
     signal = pyqtSignal(int)
