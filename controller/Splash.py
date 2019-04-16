@@ -24,7 +24,8 @@ class Splash(QMainWindow, from_splash):
 
     @pyqtSlot(int)
     def progress(self, i):
-        pass
+
+        self.progress.setValue(i)
 
 class Progress(QThread):
 
