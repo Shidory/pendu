@@ -22,6 +22,10 @@ class Splash(QMainWindow, from_splash):
         self.move((size_screen.width() - size_window.width()) / 2,
                   (size_screen.height() - size_window.height()) / 2)
 
+    @pyqtSlot(int)
+    def progress(self, i):
+        pass
+
 class Progress(QThread):
 
     signal = pyqtSignal(int)
