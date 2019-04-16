@@ -12,6 +12,7 @@ class Splash(QMainWindow, from_splash):
         super(Splash, self).__init__(parent)
         QMainWindow.__init__(self)
         self.setupUi(self)
+        self.setWindowFlags(Qt.FramelessWindowHint)
 
 class Progress(QThread):
 
