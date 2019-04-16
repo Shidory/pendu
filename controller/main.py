@@ -1,6 +1,7 @@
 from PyQt5.QtWidgets import *
 from PyQt5.uic import loadUiType
 from model.PenduModel import *
+from controller.Splash import *
 from random import choice
 import sys
 import os
