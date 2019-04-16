@@ -13,6 +13,9 @@ class Splash(QMainWindow, from_splash):
         QMainWindow.__init__(self)
         self.setupUi(self)
         self.setWindowFlags(Qt.FramelessWindowHint)
+        progress = Progress(self)
+        progress.signal.connect(self.progress)
+        progress.start()
 
 class Progress(QThread):
 
