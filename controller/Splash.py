@@ -5,3 +5,6 @@ from_splash, _ = loadUiType(os.path.join(os.path.dirname(__file__), "../view/spl
 
 class Splash(QMainWindow, from_splash):
     pass
+
+class Progress():
+    pass
