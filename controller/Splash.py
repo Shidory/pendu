@@ -17,6 +17,8 @@ class Splash(QMainWindow, from_splash):
         progress.signal.connect(self.progress)
         progress.start()
 
+        size_screen = QDesktopWidget().screenGeometry()
+
 class Progress(QThread):
 
     signal = pyqtSignal(int)
