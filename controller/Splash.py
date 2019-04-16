@@ -6,7 +6,8 @@ import time
 from_splash, _ = loadUiType(os.path.join(os.path.dirname(__file__), "../view/splash.ui"))
 
 class Splash(QMainWindow, from_splash):
-    pass
+
+    def __init__(self, parent=None):
 
 class Progress(QThread):
 
