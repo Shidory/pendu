@@ -46,7 +46,7 @@ class Main(QMainWindow, from_main):
 # main function
 def main():
     app = QApplication(sys.argv)
-    window = Main()
+    window = Splash()
     window.show()
     app.exec_()
 
