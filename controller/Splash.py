@@ -18,6 +18,7 @@ class Splash(QMainWindow, from_splash):
         progress.start()
 
         size_screen = QDesktopWidget().screenGeometry()
+        size_window = self.geometry()
 
 class Progress(QThread):
 
