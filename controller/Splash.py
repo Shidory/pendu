@@ -12,4 +12,8 @@ class Progress(QThread):
     signal = pyqtSignal(int)
 
     def __init__(self, parent=None):
+
+        QThread.__init__(self, parent)
+
+    def run(self):
         pass
