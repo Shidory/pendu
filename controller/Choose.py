@@ -20,4 +20,4 @@ class Choose(QMainWindow, from_choose):
 
     def btn_telephone_clicked(self):
 
-        pass
+        main = Main(self)
