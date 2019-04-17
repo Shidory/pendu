@@ -1,5 +1,5 @@
 from PyQt5.QtCore import *
-from controller.main import *
+from controller.Main import *
 from controller.Choose import *
 import time
 
