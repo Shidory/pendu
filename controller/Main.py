@@ -26,11 +26,15 @@ class Main(QMainWindow, from_main):
         super(Main, self).__init__(parent)
         self.setupUi(self)
 
+        size_screen = QDesktopWidget().screenGeometry()
+        size_window = self.geometry()
+        self.move((size_screen.width() - size_window.width()) / 2,
+                  (size_screen.height() - size_window.height()) / 2)
         """if btn_telephone.clicked():
 
-            telephone()"""
+            telephone()
 
-        self.btn_valider.clicked.connect(self.btn_valider_clicked)
+        self.btn_valider.clicked.connect(self.btn_valider_clicked)"""
 
     def telephone(self):
 
