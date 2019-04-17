@@ -6,5 +6,5 @@ class Choose(QMainWindow, from_choose):
 
     def __init__(self, parent = None):
 
-        super(Main, self).__init__(parent)
+        super(Choose, self).__init__(parent)
         self.setupUi(self)
