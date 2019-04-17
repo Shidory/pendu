@@ -16,6 +16,8 @@ class Choose(QMainWindow, from_choose):
         self.move((size_screen.width() - size_window.width()) / 2,
                   (size_screen.height() - size_window.height()) / 2)
 
-        self.btn_telephone.clicked.connect()
+        self.btn_telephone.clicked.connect(self.btn_telephone_clicked)
 
     def btn_telephone_clicked(self):
+
+        pass
