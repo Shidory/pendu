@@ -26,7 +26,6 @@ class Main(QMainWindow, from_main):
         super(Main, self).__init__(parent)
         self.setupUi(self)
 
-        size_screen = QDesktopWidget().screenGeometry()
         """if btn_telephone.clicked():
 
             telephone()"""

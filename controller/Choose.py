@@ -8,3 +8,8 @@ class Choose(QMainWindow, from_choose):
 
         super(Choose, self).__init__(parent)
         self.setupUi(self)
+
+        size_screen = QDesktopWidget().screenGeometry()
+        size_window = self.geometry()
+        self.move((size_screen.width() - size_window.width()) / 2,
+                  (size_screen.height() - size_window.height()) / 2)
