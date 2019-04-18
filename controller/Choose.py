@@ -20,5 +20,8 @@ class Choose(QMainWindow, from_choose):
 
     def btn_telephone_clicked(self):
 
+
+        #if resultat
         main = Main(self)
         main.show()
+        self.hide()
