@@ -64,7 +64,8 @@ class Main(QMainWindow, from_main):
 
             self.telephone()
 
-
+    def hash_choice_game(self):
+        pass
 
 # main function
 def main():
