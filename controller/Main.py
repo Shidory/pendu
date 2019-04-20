@@ -44,12 +44,6 @@ class Main(QMainWindow, from_main):
 
     def btn_a_clicked(self):
 
-        """if self.btn_a:
-            print("bouton a appuié")"""
-
-        """if self.btn_b:
-            print("bouton b appuié")"""
-
         if self.button.text().upper == "a":
             print("bouton b appuié")
 
