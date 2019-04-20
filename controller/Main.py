@@ -66,9 +66,9 @@ class Main(QMainWindow, from_main):
 
     def hash_choice_game(self):
 
-        t = self.telephone()
-        print(t)
-        #l = len(choiceGame)
+        telephone = self.telephone()
+        l = len(telephone)
+        print(l)
 
 # main function
 def main():
