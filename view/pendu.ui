@@ -4484,7 +4484,7 @@
      <set>Qt::AlignCenter</set>
     </property>
    </widget>
-   <widget class="QComboBox" name="comboBox">
+   <widget class="QComboBox" name="cbx_choice">
     <property name="geometry">
      <rect>
       <x>180</x>

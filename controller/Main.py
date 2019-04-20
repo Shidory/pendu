@@ -54,7 +54,9 @@ class Main(QMainWindow, from_main):
             pass"""
 
     def cbx_choice_action(self):
-        pass
+
+        if self.cbx_choice.currentText() == "Telephone":
+            print("cool")
 
 # main function
 def main():
