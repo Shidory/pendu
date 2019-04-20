@@ -31,7 +31,7 @@ class Main(QMainWindow, from_main):
         self.move((size_screen.width() - size_window.width()) / 2,
                   (size_screen.height() - size_window.height()) / 2)
 
-        print(self.lbl_pendu.text())
+        print(self.lbl_pendu.text()[2])
         """for i in range(0, 25):
 
             pass"""
