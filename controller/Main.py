@@ -35,7 +35,7 @@ class Main(QMainWindow, from_main):
         """for i in range(0, 25):
 
             pass"""
-        self.btn_a.clicked.connect(self.btn_letter_clicked)
+        self.btn_a.clicked.connect(self.btn_a_clicked)
 
     def telephone(self):
         print(self.btn_a.text().lower())
