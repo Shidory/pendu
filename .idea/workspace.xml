@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4182471-9bdf-4ac7-8038-ef7f3bee55a8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/Main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/pendu.ui" beforeDir="false" afterPath="$PROJECT_DIR$/view/pendu.ui" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controller/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="50" column="38" lean-forward="true" selection-start-line="45" selection-end-line="50" selection-end-column="38" />
+            <state relative-caret-position="308">
+              <caret line="37" column="45" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -212,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1555277225115</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="[UPDATE]refactor method">
+      <created>1555781676858</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1555781676858</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -242,7 +247,8 @@
     <MESSAGE value="[ADD].idea/" />
     <MESSAGE value="[NEW] class Pendu" />
     <MESSAGE value="[ADD]try to fix table bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="[ADD]try to fix table bug" />
+    <MESSAGE value="[UPDATE]refactor method" />
+    <option name="LAST_COMMIT_MESSAGE" value="[UPDATE]refactor method" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pendu.py">
@@ -271,8 +277,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/controller/Main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="50" column="38" lean-forward="true" selection-start-line="45" selection-end-line="50" selection-end-column="38" />
+        <state relative-caret-position="308">
+          <caret line="37" column="45" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
