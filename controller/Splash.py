@@ -31,9 +31,12 @@ class Splash(QMainWindow, from_splash):
         if i == 100:
 
             self.hide()
-            choose = Choose(self)
-            choose.show()
+            main = Main(self)
+            main.show()
 
+#################################################
+#               Class Progress                  #
+#################################################
 class Progress(QThread):
 
     signal = pyqtSignal(int)
