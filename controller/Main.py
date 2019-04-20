@@ -32,9 +32,7 @@ class Main(QMainWindow, from_main):
                   (size_screen.height() - size_window.height()) / 2)
 
         print(self.lbl_pendu.text()[2])
-        """for i in range(0, 25):
 
-            pass"""
         self.btn_a.clicked.connect(self.btn_a_clicked)
 
     def telephone(self):
