@@ -22,8 +22,9 @@ class Choose(QMainWindow, from_choose):
 
         wordGame = pm.select_animal()
         choiceRandom = choice(wordGame)
-
+        #self.lbl_pendu.setText(choiceRandom)
         #if resultat
         main = Main(self)
         main.show()
         self.hide()
+        return choiceRandom
