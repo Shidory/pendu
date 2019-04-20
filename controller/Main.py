@@ -77,6 +77,8 @@ class Main(QMainWindow, from_main):
 
             self.lbl_pendu.setText(newt)
 
+        return telephone
+
 # main function
 def main():
     app = QApplication(sys.argv)

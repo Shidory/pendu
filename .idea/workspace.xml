@@ -16,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controller/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="75" column="12" lean-forward="true" selection-start-line="75" selection-start-column="12" selection-end-line="75" selection-end-column="12" />
+            <state relative-caret-position="448">
+              <caret line="79" column="24" selection-start-line="79" selection-start-column="24" selection-end-line="79" selection-end-column="24" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -393,7 +393,21 @@
       <option name="project" value="LOCAL" />
       <updated>1555794844456</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="[ADD]newt to try to fix assignement bug">
+      <created>1555795655136</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1555795655136</updated>
+    </task>
+    <task id="LOCAL-00031" summary="[ADD]provisory hash">
+      <created>1555796399203</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1555796399203</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -420,8 +434,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[UPDATE]refactor method" />
-    <MESSAGE value="[UPDATE]call method btn_a_clicked" />
     <MESSAGE value="[DELETE]test" />
     <MESSAGE value="[ADD]try to show label text" />
     <MESSAGE value="[ADD]try to show specific label text" />
@@ -445,7 +457,9 @@
     <MESSAGE value="[ADD]get len of telephone" />
     <MESSAGE value="[ADD]wanna hash text" />
     <MESSAGE value="[ADD]try to fix assignement bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="[ADD]try to fix assignement bug" />
+    <MESSAGE value="[ADD]newt to try to fix assignement bug" />
+    <MESSAGE value="[ADD]provisory hash" />
+    <option name="LAST_COMMIT_MESSAGE" value="[ADD]provisory hash" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pendu.py">
@@ -498,8 +512,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/controller/Main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="75" column="12" lean-forward="true" selection-start-line="75" selection-start-column="12" selection-end-line="75" selection-end-column="12" />
+        <state relative-caret-position="448">
+          <caret line="79" column="24" selection-start-line="79" selection-start-column="24" selection-end-line="79" selection-end-column="24" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
