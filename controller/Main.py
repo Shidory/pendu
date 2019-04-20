@@ -65,16 +65,18 @@ class Main(QMainWindow, from_main):
             self.hash_choice_game()
 
     def hash_choice_game(self):
-
+        newt = ""
         telephone = self.telephone()
         l = len(telephone)
         hash = "*"
 
         for leter in range(l):
+
             t = telephone[leter]
-            type(t)
-            """"= hash
-            self.lbl_pendu.setText(t)"""
+
+            print(type(leter))
+            """"= hash"""
+            self.lbl_pendu.setText(t)
 
 # main function
 def main():
