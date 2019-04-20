@@ -38,8 +38,10 @@ class Main(QMainWindow, from_main):
 
     def telephone(self):
         #print(self.btn_a.text().lower())
-        wordGame = pm.select_animal()
+        wordGame = pm.select_telephone()
         choiceRandom = choice(wordGame)
+        self.lbl_pendu.setText(choiceRandom)
+        print(self.lbl_pendu)
         return choiceRandom
 
     def btn_a_clicked(self):

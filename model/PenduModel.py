@@ -8,7 +8,7 @@ cDb = ConnectionDB()
 
 class PenduModel():
 
-    def select_animal(self):
+    def select_telephone(self):
 
         request = "SELECT marque FROM telephone"
         cDb.cursor.execute(request)

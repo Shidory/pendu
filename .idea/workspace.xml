@@ -4,6 +4,7 @@
     <list default="true" id="d4182471-9bdf-4ac7-8038-ef7f3bee55a8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/Main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/PenduModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/PenduModel.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +17,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controller/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+            <state relative-caret-position="252">
+              <caret line="42" column="31" lean-forward="true" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -49,8 +50,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/PenduModel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="250">
+              <caret line="10" column="24" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -69,10 +70,10 @@
         <option value="$PROJECT_DIR$/model/connection_db.py" />
         <option value="$PROJECT_DIR$/model/pendu_model.py" />
         <option value="$PROJECT_DIR$/model/ConnectionDB.py" />
-        <option value="$PROJECT_DIR$/model/PenduModel.py" />
         <option value="$PROJECT_DIR$/controller/main.py" />
         <option value="$PROJECT_DIR$/controller/Choose.py" />
         <option value="$PROJECT_DIR$/controller/Splash.py" />
+        <option value="$PROJECT_DIR$/model/PenduModel.py" />
         <option value="$PROJECT_DIR$/controller/Main.py" />
       </list>
     </option>
@@ -309,7 +310,21 @@
       <option name="project" value="LOCAL" />
       <updated>1555788207300</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="[ADD]exec telephone method if combo box's current text  equals to Telephone">
+      <created>1555789986439</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1555789986439</updated>
+    </task>
+    <task id="LOCAL-00019" summary="[ADD]return choiceRandom">
+      <created>1555790118166</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1555790118166</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -352,7 +367,9 @@
     <MESSAGE value="[UPDATE]now launch main" />
     <MESSAGE value="[ADD]cbx_choice_action method" />
     <MESSAGE value="[ADD]try to get combo box values" />
-    <option name="LAST_COMMIT_MESSAGE" value="[ADD]try to get combo box values" />
+    <MESSAGE value="[ADD]exec telephone method if combo box's current text  equals to Telephone" />
+    <MESSAGE value="[ADD]return choiceRandom" />
+    <option name="LAST_COMMIT_MESSAGE" value="[ADD]return choiceRandom" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pendu.py">
@@ -398,15 +415,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/model/PenduModel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="250">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controller/Main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+        <state relative-caret-position="252">
+          <caret line="42" column="31" lean-forward="true" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
