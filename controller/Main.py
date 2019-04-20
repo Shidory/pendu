@@ -68,7 +68,11 @@ class Main(QMainWindow, from_main):
 
         telephone = self.telephone()
         l = len(telephone)
-        print(l)
+        hash = "*"
+
+        for leter in range(l):
+            t = telephone[leter] = hash
+            self.lbl_pendu.setText(t)
 
 # main function
 def main():
