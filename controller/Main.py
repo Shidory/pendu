@@ -35,6 +35,7 @@ class Main(QMainWindow, from_main):
 
         self.cbx_choice_action()
         self.btn_a.clicked.connect(self.btn_a_clicked)
+        self.btn_n.clicked.connect(self.btn_n_clicked)
 
     def telephone(self):
         #print(self.btn_a.text().lower())
@@ -50,6 +51,9 @@ class Main(QMainWindow, from_main):
 
         """if self.button.text().upper == "a":
             print("bouton b appuié")"""
+
+    def btn_n_clicked(self):
+        pass
 
     def btn_valider_clicked(self):
 
