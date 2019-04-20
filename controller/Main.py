@@ -73,10 +73,9 @@ class Main(QMainWindow, from_main):
         for leter in range(l):
 
             t = telephone[leter]
+            newt += hash
 
-            print(type(leter))
-            """"= hash"""
-            self.lbl_pendu.setText(t)
+            self.lbl_pendu.setText(newt)
 
 # main function
 def main():
