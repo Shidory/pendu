@@ -21,6 +21,8 @@ class Choose(QMainWindow, from_choose):
     def btn_telephone_clicked(self):
 
         wordGame = pm.select_animal()
+        choiceRandom = choice(wordGame)
+
         #if resultat
         main = Main(self)
         main.show()
