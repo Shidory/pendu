@@ -43,8 +43,7 @@ class Main(QMainWindow, from_main):
         choiceGame = choiceRandom[0]
 
         self.lbl_pendu.setText(choiceGame)
-        print(self.lbl_pendu)
-        return choiceRandom
+        return choiceGame
 
     def btn_a_clicked(self):
 
