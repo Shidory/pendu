@@ -53,6 +53,9 @@ class Main(QMainWindow, from_main):
         """for i in range(len(choiceRamdom)):
             pass"""
 
+    def cbx_choice_action(self):
+        pass
+
 # main function
 def main():
     app = QApplication(sys.argv)
