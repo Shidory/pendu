@@ -40,6 +40,7 @@ class Main(QMainWindow, from_main):
         #print(self.btn_a.text().lower())
         wordGame = pm.select_animal()
         choiceRandom = choice(wordGame)
+        return choiceRandom
 
     def btn_a_clicked(self):
 
