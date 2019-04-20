@@ -31,7 +31,7 @@ class Main(QMainWindow, from_main):
         self.move((size_screen.width() - size_window.width()) / 2,
                   (size_screen.height() - size_window.height()) / 2)
 
-        print(QPushButton[0])
+        print(self.lbl_pendu.text())
         """for i in range(0, 25):
 
             pass"""
@@ -44,8 +44,9 @@ class Main(QMainWindow, from_main):
 
     def btn_a_clicked(self):
 
-        if self.button.text().upper == "a":
-            print("bouton b appuié")
+
+        """if self.button.text().upper == "a":
+            print("bouton b appuié")"""
 
     def btn_valider_clicked(self):
 

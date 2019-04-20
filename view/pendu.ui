@@ -4463,7 +4463,7 @@
      <set>Qt::AlignCenter</set>
     </property>
    </widget>
-   <widget class="QLabel" name="label_4">
+   <widget class="QLabel" name="lbl_pendu">
     <property name="geometry">
      <rect>
       <x>320</x>
