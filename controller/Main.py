@@ -40,10 +40,9 @@ class Main(QMainWindow, from_main):
         #print(self.btn_a.text().lower())
         wordGame = pm.select_telephone()
         choiceRandom = choice(wordGame)
-        c = choiceRandom[0]
-        print(c)
-        print(choiceRandom)
-        #self.lbl_pendu.setText(choiceRandom)
+        choiceGame = choiceRandom[0]
+
+        self.lbl_pendu.setText(choiceGame)
         print(self.lbl_pendu)
         return choiceRandom
 
