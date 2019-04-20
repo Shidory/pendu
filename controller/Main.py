@@ -62,11 +62,13 @@ class Main(QMainWindow, from_main):
 
         if self.cbx_choice.currentText() == "Telephone":
 
-            self.telephone()
+            self.hash_choice_game()
 
     def hash_choice_game(self):
 
-        l = len(choiceGame)
+        t = self.telephone()
+        print(t)
+        #l = len(choiceGame)
 
 # main function
 def main():
