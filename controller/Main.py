@@ -30,19 +30,29 @@ class Main(QMainWindow, from_main):
         size_window = self.geometry()
         self.move((size_screen.width() - size_window.width()) / 2,
                   (size_screen.height() - size_window.height()) / 2)
-        self.btn_a.clicked.connect(self.telephone)
-        """if btn_telephone.clicked():
 
-            telephone()
+        print(QPushButton[0])
+        """for i in range(0, 25):
 
-        self.btn_valider.clicked.connect(self.btn_valider_clicked)"""
+            pass"""
+        self.btn_a.clicked.connect(self.btn_letter_clicked)
 
     def telephone(self):
         print(self.btn_a.text().lower())
         wordGame = pm.select_animal()
         choiceRandom = choice(wordGame)
 
-    def btn_letter_clicked(self):
+    def btn_a_clicked(self):
+
+        """if self.btn_a:
+            print("bouton a appuié")"""
+
+        """if self.btn_b:
+            print("bouton b appuié")"""
+
+        if self.button.text().upper == "a":
+            print("bouton b appuié")
+
     def btn_valider_clicked(self):
 
         letter = self.let_game.text()
