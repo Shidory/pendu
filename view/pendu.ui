@@ -4493,6 +4493,27 @@
       <height>51</height>
      </rect>
     </property>
+    <property name="editable">
+     <bool>false</bool>
+    </property>
+    <property name="currentText">
+     <string>Telephone</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>Telephone</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Animal</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Fruit</string>
+     </property>
+    </item>
    </widget>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
