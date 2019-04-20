@@ -33,10 +33,11 @@ class Main(QMainWindow, from_main):
 
         print(self.lbl_pendu.text()[2])
 
+        self.cbx_choice_action()
         self.btn_a.clicked.connect(self.btn_a_clicked)
 
     def telephone(self):
-        print(self.btn_a.text().lower())
+        #print(self.btn_a.text().lower())
         wordGame = pm.select_animal()
         choiceRandom = choice(wordGame)
 
@@ -56,7 +57,10 @@ class Main(QMainWindow, from_main):
     def cbx_choice_action(self):
 
         if self.cbx_choice.currentText() == "Telephone":
-            print("cool")
+
+            self.telephone()
+
+
 
 # main function
 def main():

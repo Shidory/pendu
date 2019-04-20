@@ -17,7 +17,7 @@
         <entry file="file://$PROJECT_DIR$/controller/Main.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="336">
-              <caret line="57" column="4" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="4" />
+              <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -295,7 +295,21 @@
       <option name="project" value="LOCAL" />
       <updated>1555787811888</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="[ADD]cbx_choice_action method">
+      <created>1555787987467</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1555787987467</updated>
+    </task>
+    <task id="LOCAL-00017" summary="[ADD]try to get combo box values">
+      <created>1555788207300</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1555788207300</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -336,7 +350,9 @@
     <MESSAGE value="[ADD]Spin" />
     <MESSAGE value="[ADD]items" />
     <MESSAGE value="[UPDATE]now launch main" />
-    <option name="LAST_COMMIT_MESSAGE" value="[UPDATE]now launch main" />
+    <MESSAGE value="[ADD]cbx_choice_action method" />
+    <MESSAGE value="[ADD]try to get combo box values" />
+    <option name="LAST_COMMIT_MESSAGE" value="[ADD]try to get combo box values" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pendu.py">
@@ -390,7 +406,7 @@
     <entry file="file://$PROJECT_DIR$/controller/Main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
-          <caret line="57" column="4" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="4" />
+          <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
