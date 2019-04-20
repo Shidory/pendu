@@ -1804,7 +1804,7 @@
      </font>
     </property>
     <property name="text">
-     <string>A</string>
+     <string>K</string>
     </property>
    </widget>
    <widget class="QPushButton" name="a_3">
@@ -1967,7 +1967,7 @@
      </font>
     </property>
     <property name="text">
-     <string>A</string>
+     <string>L</string>
     </property>
    </widget>
    <widget class="QPushButton" name="m">
@@ -2133,7 +2133,7 @@
      <string>M</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="a_5">
+   <widget class="QPushButton" name="btn_n">
     <property name="geometry">
      <rect>
       <x>330</x>
@@ -2293,7 +2293,7 @@
      </font>
     </property>
     <property name="text">
-     <string>A</string>
+     <string>N</string>
     </property>
    </widget>
    <widget class="QPushButton" name="a_6">
@@ -2456,7 +2456,7 @@
      </font>
     </property>
     <property name="text">
-     <string>A</string>
+     <string>O</string>
     </property>
    </widget>
    <widget class="QPushButton" name="a_7">
@@ -2619,7 +2619,7 @@
      </font>
     </property>
     <property name="text">
-     <string>A</string>
+     <string>P</string>
     </property>
    </widget>
    <widget class="QPushButton" name="a_8">
@@ -2782,7 +2782,7 @@
      </font>
     </property>
     <property name="text">
-     <string>A</string>
+     <string>Q</string>
     </property>
    </widget>
    <widget class="QPushButton" name="r">
@@ -3108,7 +3108,7 @@
      </font>
     </property>
     <property name="text">
-     <string>A</string>
+     <string>S</string>
     </property>
    </widget>
    <widget class="QPushButton" name="t">
@@ -3597,7 +3597,7 @@
      </font>
     </property>
     <property name="text">
-     <string>A</string>
+     <string>V</string>
     </property>
    </widget>
    <widget class="QPushButton" name="a_11">
@@ -3760,7 +3760,7 @@
      </font>
     </property>
     <property name="text">
-     <string>A</string>
+     <string>W</string>
     </property>
    </widget>
    <widget class="QPushButton" name="a_12">
@@ -3923,7 +3923,7 @@
      </font>
     </property>
     <property name="text">
-     <string>A</string>
+     <string>X</string>
     </property>
    </widget>
    <widget class="QPushButton" name="a_13">
@@ -4086,7 +4086,7 @@
      </font>
     </property>
     <property name="text">
-     <string>A</string>
+     <string>Y</string>
     </property>
    </widget>
    <widget class="QPushButton" name="z">
