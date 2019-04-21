@@ -88,6 +88,9 @@ class Main(QMainWindow, from_main):
     def de_hash_choice_game(self):
         pass
 
+    def compare(self):
+        pass
+
 # main function
 def main():
     app = QApplication(sys.argv)
