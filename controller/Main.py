@@ -89,7 +89,9 @@ class Main(QMainWindow, from_main):
         pass
 
     def compare(self):
-        pass
+
+        choiceGame = 1
+        hashGame = 1
 
 # main function
 def main():
