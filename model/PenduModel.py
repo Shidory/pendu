@@ -15,3 +15,6 @@ class PenduModel():
         result = cDb.cursor.fetchall()
 
         return result
+
+    def select_fruit(self):
+        pass
