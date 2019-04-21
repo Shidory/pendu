@@ -46,12 +46,6 @@ class Main(QMainWindow, from_main):
         self.lbl_pendu.setText(choiceGame)
         return choiceGame
 
-    def btn_a_clicked(self):
-
-
-        """if self.button.text().upper == "a":
-            print("bouton b appuié")"""
-
     def btn_n_clicked(self):
 
         n = self.btn_n.text().lower()
