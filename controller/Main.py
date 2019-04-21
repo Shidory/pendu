@@ -93,6 +93,9 @@ class Main(QMainWindow, from_main):
         choiceGame = 1
         hashGame = 1
 
+        for leter in hashGame:
+            pass
+
 # main function
 def main():
     app = QApplication(sys.argv)
