@@ -17,4 +17,5 @@ class PenduModel():
         return result
 
     def select_fruit(self):
-        pass
+
+        request = "SELECT name FROM fruit"
