@@ -58,7 +58,7 @@ class Main(QMainWindow, from_main):
 
         if n == "n":
 
-            compare = self.compare(n)
+            inChoiceGame = self.in_choice_game(n)
 
     def btn_valider_clicked(self):
 
@@ -99,7 +99,7 @@ class Main(QMainWindow, from_main):
         for leter in hashGame:
             pass
 
-    def in_choice_game(self):
+    def in_choice_game(self, leter):
         pass
 
 # main function
