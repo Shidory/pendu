@@ -99,7 +99,7 @@ class Main(QMainWindow, from_main):
         for leter in hashGame:
             pass
 
-    def in_choiceGame(self):
+    def in_choice_game(self):
         pass
 
 # main function
