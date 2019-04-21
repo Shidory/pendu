@@ -55,7 +55,8 @@ class Main(QMainWindow, from_main):
     def btn_n_clicked(self):
 
         if self.btn_n.text().lower() == "n":
-            print("bouton b appuié")
+
+            compare = self.compare()
 
     def btn_valider_clicked(self):
 
