@@ -54,6 +54,8 @@ class Main(QMainWindow, from_main):
 
     def btn_n_clicked(self):
 
+        n = self.btn_a.text().lower()
+
         if self.btn_n.text().lower() == "n":
 
             compare = self.compare()
