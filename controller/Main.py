@@ -34,7 +34,7 @@ class Main(QMainWindow, from_main):
         print(self.lbl_pendu.text()[2])
 
         self.cbx_choice_action()
-        self.btn_a.clicked.connect(self.btn_a_clicked)
+
         self.btn_n.clicked.connect(self.btn_n_clicked)
 
     def telephone(self):

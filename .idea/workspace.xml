@@ -17,7 +17,7 @@
         <entry file="file://$PROJECT_DIR$/controller/Main.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="297">
-              <caret line="105" column="19" selection-start-line="105" selection-start-column="19" selection-end-line="105" selection-end-column="19" />
+              <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -189,13 +189,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554639008712</updated>
-    </task>
-    <task id="LOCAL-00001" summary="[ADD].idea/">
-      <created>1554639283064</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1554639283064</updated>
     </task>
     <task id="LOCAL-00002" summary="[NEW] class Pendu">
       <created>1554639801389</created>
@@ -526,7 +519,21 @@
       <option name="project" value="LOCAL" />
       <updated>1555848334365</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="[ADD]try to get and send leter">
+      <created>1555848734616</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1555848734616</updated>
+    </task>
+    <task id="LOCAL-00050" summary="[DELETE] btn_a_clicked method">
+      <created>1555849316151</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1555849316152</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -553,8 +560,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[ADD]hash_choice_game method" />
-    <MESSAGE value="[ADD]get length of choice game" />
     <MESSAGE value="[ADD]trying to get choice" />
     <MESSAGE value="[ADD]get len of telephone" />
     <MESSAGE value="[ADD]wanna hash text" />
@@ -578,7 +583,9 @@
     <MESSAGE value="[ADD]in_choiceGame method" />
     <MESSAGE value="[ADD]refactor" />
     <MESSAGE value="[UPDATE]by inChoiceGame" />
-    <option name="LAST_COMMIT_MESSAGE" value="[UPDATE]by inChoiceGame" />
+    <MESSAGE value="[ADD]try to get and send leter" />
+    <MESSAGE value="[DELETE] btn_a_clicked method" />
+    <option name="LAST_COMMIT_MESSAGE" value="[DELETE] btn_a_clicked method" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pendu.py">
@@ -632,7 +639,7 @@
     <entry file="file://$PROJECT_DIR$/controller/Main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
-          <caret line="105" column="19" selection-start-line="105" selection-start-column="19" selection-end-line="105" selection-end-column="19" />
+          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
