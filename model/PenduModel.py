@@ -20,3 +20,4 @@ class PenduModel():
 
         request = "SELECT name FROM fruit"
         cDb.cursor.execute(request)
+        result = cDb.cursor.fetchall()
