@@ -16,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controller/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="101" column="19" selection-start-line="101" selection-start-column="19" selection-end-line="101" selection-end-column="19" />
+            <state relative-caret-position="297">
+              <caret line="105" column="19" selection-start-line="105" selection-start-column="19" selection-end-line="105" selection-end-column="19" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -512,7 +512,21 @@
       <option name="project" value="LOCAL" />
       <updated>1555848177351</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="[ADD]refactor">
+      <created>1555848216411</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1555848216411</updated>
+    </task>
+    <task id="LOCAL-00048" summary="[UPDATE]by inChoiceGame">
+      <created>1555848334365</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1555848334365</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -539,8 +553,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[ADD]set choiceGame to label pendu" />
-    <MESSAGE value="[ADD]return the Choice Game" />
     <MESSAGE value="[ADD]hash_choice_game method" />
     <MESSAGE value="[ADD]get length of choice game" />
     <MESSAGE value="[ADD]trying to get choice" />
@@ -564,7 +576,9 @@
     <MESSAGE value="[ADD]call method compare" />
     <MESSAGE value="[ADD]get btn_n's text value for test" />
     <MESSAGE value="[ADD]in_choiceGame method" />
-    <option name="LAST_COMMIT_MESSAGE" value="[ADD]in_choiceGame method" />
+    <MESSAGE value="[ADD]refactor" />
+    <MESSAGE value="[UPDATE]by inChoiceGame" />
+    <option name="LAST_COMMIT_MESSAGE" value="[UPDATE]by inChoiceGame" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pendu.py">
@@ -617,8 +631,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/controller/Main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="101" column="19" selection-start-line="101" selection-start-column="19" selection-end-line="101" selection-end-column="19" />
+        <state relative-caret-position="297">
+          <caret line="105" column="19" selection-start-line="105" selection-start-column="19" selection-end-line="105" selection-end-column="19" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>

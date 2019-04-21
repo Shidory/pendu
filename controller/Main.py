@@ -101,6 +101,9 @@ class Main(QMainWindow, from_main):
 
     def in_choice_game(self, leter):
         pass
+        """if leter in choiceGame:
+
+            pass"""
 
 # main function
 def main():
