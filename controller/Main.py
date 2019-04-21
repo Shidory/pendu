@@ -53,7 +53,9 @@ class Main(QMainWindow, from_main):
             print("bouton b appuié")"""
 
     def btn_n_clicked(self):
-        pass
+
+        if self.btn_n.text().lower() == "n":
+            print("bouton b appuié")
 
     def btn_valider_clicked(self):
 
@@ -82,6 +84,9 @@ class Main(QMainWindow, from_main):
             self.lbl_pendu.setText(newt)
 
         return telephone
+
+    def de_hash_choice_game(self):
+        pass
 
 # main function
 def main():
