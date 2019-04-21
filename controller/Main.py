@@ -54,11 +54,11 @@ class Main(QMainWindow, from_main):
 
     def btn_n_clicked(self):
 
-        n = self.btn_a.text().lower()
+        n = self.btn_n.text().lower()
 
-        if self.btn_n.text().lower() == "n":
+        if n == "n":
 
-            compare = self.compare()
+            compare = self.compare(n)
 
     def btn_valider_clicked(self):
 
@@ -98,6 +98,9 @@ class Main(QMainWindow, from_main):
 
         for leter in hashGame:
             pass
+
+    def in_choiceGame(self):
+        pass
 
 # main function
 def main():
