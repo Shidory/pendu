@@ -72,6 +72,7 @@ class Main(QMainWindow, from_main):
         newt = ""
         telephone = self.telephone()
         choiceRandom = choice(telephone)
+        choiceGame = choiceRandom[0]
         l = len(telephone)
         hash = "*"
 
