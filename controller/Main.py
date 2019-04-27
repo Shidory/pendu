@@ -40,11 +40,11 @@ class Main(QMainWindow, from_main):
     def telephone(self):
         #print(self.btn_a.text().lower())
         wordGame = pm.select_telephone()
-        choiceRandom = choice(wordGame)
+        """choiceRandom = choice(wordGame)
         choiceGame = choiceRandom[0]
 
         self.lbl_pendu.setText(choiceGame)
-        return choiceGame
+        return choiceGame"""
 
     def btn_n_clicked(self):
 
@@ -61,15 +61,17 @@ class Main(QMainWindow, from_main):
         """for i in range(len(choiceRamdom)):
             pass"""
 
-    def cbx_choice_action(self):
+    """def cbx_choice_action(self):
 
         if self.cbx_choice.currentText() == "Telephone":
 
-            self.hash_choice_game()
+            self.hash_choice_game()"""
 
     def hash_choice_game(self):
+
         newt = ""
         telephone = self.telephone()
+        choiceRandom = choice(telephone)
         l = len(telephone)
         hash = "*"
 
