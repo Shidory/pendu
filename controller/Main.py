@@ -120,6 +120,9 @@ class Main(QMainWindow, from_main):
 
             pass"""
 
+    def pendu(self):
+        pass
+
 # main function
 def main():
     app = QApplication(sys.argv)
