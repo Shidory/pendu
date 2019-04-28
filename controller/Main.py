@@ -69,7 +69,7 @@ class Main(QMainWindow, from_main):
 
     def hash_choice_game(self, wordGame, wordClick):
 
-        newt = ""
+        """newt = ""
         telephone = self.telephone()
         choiceRandom = choice(telephone)
         choiceGame = choiceRandom[0]
@@ -85,7 +85,17 @@ class Main(QMainWindow, from_main):
 
             self.lbl_pendu.setText(newt)
 
-        return telephone
+        return telephone"""
+        hash = "*"
+        wordHash = ""
+
+        for leter in wordGame:
+            if leter in wordClick:
+                wordHash += leter
+            else:
+                wordHash += hash
+
+        return wordHash
 
     def de_hash_choice_game(self):
         pass
