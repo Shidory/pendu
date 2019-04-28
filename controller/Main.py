@@ -103,9 +103,6 @@ class Main(QMainWindow, from_main):
 
         return wordHash
 
-    def de_hash_choice_game(self):
-        pass
-
     def pendu(self):
 
         letter = self.get_letter()
