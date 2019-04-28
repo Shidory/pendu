@@ -16,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controller/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="53" selection-start-line="53" selection-end-line="53" />
+            <state relative-caret-position="287">
+              <caret line="86" selection-start-line="86" selection-end-line="86" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -195,20 +195,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554639008712</updated>
-    </task>
-    <task id="LOCAL-00020" summary="[ADD]try to set choiceRandom text to label pendu">
-      <created>1555790527734</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1555790527734</updated>
-    </task>
-    <task id="LOCAL-00021" summary="[ADD]try to get just text not tuple">
-      <created>1555790936383</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1555790936383</updated>
     </task>
     <task id="LOCAL-00022" summary="[ADD]set choiceGame to label pendu">
       <created>1555791085308</created>
@@ -539,7 +525,21 @@
       <option name="project" value="LOCAL" />
       <updated>1556481727015</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="[DELETE]method btn_n_clicked">
+      <created>1556481785667</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1556481785667</updated>
+    </task>
+    <task id="LOCAL-00070" summary="[DELETE]method btn_valider_clicked">
+      <created>1556484312444</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1556484312444</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -552,7 +552,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33912036" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39930555" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -566,8 +566,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[ADD]call method compare" />
-    <MESSAGE value="[ADD]get btn_n's text value for test" />
     <MESSAGE value="[ADD]in_choiceGame method" />
     <MESSAGE value="[ADD]refactor" />
     <MESSAGE value="[UPDATE]by inChoiceGame" />
@@ -591,7 +589,9 @@
     <MESSAGE value="[DELETE]method in_choice_game" />
     <MESSAGE value="[DELETE]method compare" />
     <MESSAGE value="[DELETE]method de_hash_game" />
-    <option name="LAST_COMMIT_MESSAGE" value="[DELETE]method de_hash_game" />
+    <MESSAGE value="[DELETE]method btn_n_clicked" />
+    <MESSAGE value="[DELETE]method btn_valider_clicked" />
+    <option name="LAST_COMMIT_MESSAGE" value="[DELETE]method btn_valider_clicked" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pendu.py">
@@ -620,8 +620,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/controller/Main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        <state relative-caret-position="287">
+          <caret line="86" selection-start-line="86" selection-end-line="86" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>

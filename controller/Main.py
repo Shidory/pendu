@@ -55,10 +55,6 @@ class Main(QMainWindow, from_main):
 
         """newt = ""
         telephone = self.telephone()
-        choiceRandom = choice(telephone)
-        choiceGame = choiceRandom[0]
-        self.lbl_pendu.setText(choiceGame)
-        return choiceGame
         l = len(telephone)
         hash = "*"
 
@@ -78,6 +74,7 @@ class Main(QMainWindow, from_main):
                 wordHash += letter
             else:
                 wordHash += hash
+        self.lbl_pendu.setText(wordHash)
 
         return wordHash
 
@@ -88,11 +85,9 @@ class Main(QMainWindow, from_main):
         letterWin = []
         wordWin = self.hash_choice_game(mysteriousWord, letterWin)
 
-        self.lbl_pendu.setText(mysteriousWord)
-
-        if letter in mysteriousWord:
+        """if letter in mysteriousWord:
             letterWin.append(letter)
-            self.lbl_pendu.setText(letterWin[0])
+            self.lbl_pendu.setText(letterWin[0])"""
 
 # main function
 def main():
