@@ -37,14 +37,14 @@ class Main(QMainWindow, from_main):
 
         self.btn_n.clicked.connect(self.btn_n_clicked)
 
+    """Method who return telephone choices"""
     def telephone(self):
-        #print(self.btn_a.text().lower())
-        wordGame = pm.select_telephone()
-        """choiceRandom = choice(wordGame)
-        choiceGame = choiceRandom[0]
 
-        self.lbl_pendu.setText(choiceGame)
-        return choiceGame"""
+        selectWord = pm.select_telephone()
+        choiceWord = choice(selectWord)
+        wordGame = choiceWord[0]
+
+        return wordGame
 
     def btn_n_clicked(self):
 
@@ -67,12 +67,14 @@ class Main(QMainWindow, from_main):
 
             self.hash_choice_game()"""
 
-    def hash_choice_game(self):
+    def hash_choice_game(self, wordGame, wordClick):
 
         newt = ""
         telephone = self.telephone()
         choiceRandom = choice(telephone)
         choiceGame = choiceRandom[0]
+        self.lbl_pendu.setText(choiceGame)
+        return choiceGame
         l = len(telephone)
         hash = "*"
 

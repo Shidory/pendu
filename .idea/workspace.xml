@@ -16,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controller/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="73" column="39" selection-start-line="73" selection-start-column="39" selection-end-line="73" selection-end-column="39" />
+            <state relative-caret-position="130">
+              <caret line="69" column="50" selection-start-line="69" selection-start-column="50" selection-end-line="69" selection-end-column="50" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -49,7 +49,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/PenduModel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="466">
+            <state relative-caret-position="360">
               <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
             </state>
           </provider>
@@ -88,6 +88,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -109,7 +110,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -189,20 +189,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554639008712</updated>
-    </task>
-    <task id="LOCAL-00003" summary="[ADD]try to fix table bug">
-      <created>1555277225115</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1555277225115</updated>
-    </task>
-    <task id="LOCAL-00004" summary="[UPDATE]refactor method">
-      <created>1555781676858</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1555781676858</updated>
     </task>
     <task id="LOCAL-00005" summary="[UPDATE]call method btn_a_clicked">
       <created>1555781800818</created>
@@ -533,7 +519,21 @@
       <option name="project" value="LOCAL" />
       <updated>1555849356578</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="[ADD] choiceRandom">
+      <created>1556358845304</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1556358845304</updated>
+    </task>
+    <task id="LOCAL-00053" summary="[ADD] choiceGame">
+      <created>1556358933391</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1556358933391</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -560,8 +560,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[ADD]get len of telephone" />
-    <MESSAGE value="[ADD]wanna hash text" />
     <MESSAGE value="[ADD]try to fix assignement bug" />
     <MESSAGE value="[ADD]newt to try to fix assignement bug" />
     <MESSAGE value="[ADD]provisory hash" />
@@ -585,7 +583,9 @@
     <MESSAGE value="[ADD]try to get and send leter" />
     <MESSAGE value="[DELETE] btn_a_clicked method" />
     <MESSAGE value="[DELETE] btn_a_clicked's callback" />
-    <option name="LAST_COMMIT_MESSAGE" value="[DELETE] btn_a_clicked's callback" />
+    <MESSAGE value="[ADD] choiceRandom" />
+    <MESSAGE value="[ADD] choiceGame" />
+    <option name="LAST_COMMIT_MESSAGE" value="[ADD] choiceGame" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pendu.py">
@@ -612,6 +612,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/controller/Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="69" column="50" selection-start-line="69" selection-start-column="50" selection-end-line="69" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/controller/Splash.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
@@ -631,18 +641,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/model/PenduModel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
+        <state relative-caret-position="360">
           <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/Main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="73" column="39" selection-start-line="73" selection-start-column="39" selection-end-line="73" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
