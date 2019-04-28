@@ -33,9 +33,9 @@ class Main(QMainWindow, from_main):
 
         print(self.lbl_pendu.text()[2])
 
-        self.cbx_choice_action()
-
-        self.btn_n.clicked.connect(self.btn_n_clicked)
+        #self.cbx_choice_action()
+        #self.btn_n.clicked.connect(self.btn_n_clicked)
+        self.btn_n.clicked.connect(self.pendu)
 
     """Method who return telephone choices"""
     def telephone(self):
@@ -129,6 +129,7 @@ class Main(QMainWindow, from_main):
 
         if letter in mysteriousWord:
             letterWin.append(letter)
+            self.lbl_pendu.setText(letterWin)
 
 # main function
 def main():
