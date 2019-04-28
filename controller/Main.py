@@ -73,7 +73,7 @@ class Main(QMainWindow, from_main):
 
             self.hash_choice_game()"""
 
-    def hash_choice_game(self, wordGame, wordClick):
+    def hash_choice_game(self, mysteriousWord, letterWin):
 
         """newt = ""
         telephone = self.telephone()
@@ -95,8 +95,8 @@ class Main(QMainWindow, from_main):
         hash = "*"
         wordHash = ""
 
-        for leter in wordGame:
-            if leter in wordClick:
+        for leter in mysteriousWord:
+            if leter in letterWin:
                 wordHash += leter
             else:
                 wordHash += hash
