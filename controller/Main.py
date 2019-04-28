@@ -31,11 +31,10 @@ class Main(QMainWindow, from_main):
         self.move((size_screen.width() - size_window.width()) / 2,
                   (size_screen.height() - size_window.height()) / 2)
 
-        print(self.lbl_pendu.text()[2])
-
         #self.cbx_choice_action()
         #self.btn_n.clicked.connect(self.btn_n_clicked)
-        self.btn_n.clicked.connect(self.pendu)
+        #self.btn_n.clicked.connect(self.pendu)
+        self.pendu()
 
     """Method who return telephone choices"""
     def telephone(self):
@@ -51,19 +50,6 @@ class Main(QMainWindow, from_main):
         letterN = self.btn_n.text().lower()
 
         return letterN
-
-    def btn_valider_clicked(self):
-
-        letter = self.let_game.text()
-
-        """for i in range(len(choiceRamdom)):
-            pass"""
-
-    """def cbx_choice_action(self):
-
-        if self.cbx_choice.currentText() == "Telephone":
-
-            self.hash_choice_game()"""
 
     def hash_choice_game(self, mysteriousWord, letterWin):
 
@@ -87,9 +73,9 @@ class Main(QMainWindow, from_main):
         hash = "*"
         wordHash = ""
 
-        for leter in mysteriousWord:
-            if leter in letterWin:
-                wordHash += leter
+        for letter in mysteriousWord:
+            if letter in letterWin:
+                wordHash += letter
             else:
                 wordHash += hash
 
@@ -101,6 +87,8 @@ class Main(QMainWindow, from_main):
         mysteriousWord = self.telephone()
         letterWin = []
         wordWin = self.hash_choice_game(mysteriousWord, letterWin)
+
+        self.lbl_pendu.setText(mysteriousWord)
 
         if letter in mysteriousWord:
             letterWin.append(letter)
