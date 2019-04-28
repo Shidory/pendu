@@ -44,6 +44,8 @@ class Main(QMainWindow, from_main):
         wordGame = choiceWord[0]
 
         return wordGame
+    def letter_clicked(self):
+        pass
 
     def get_letter(self):
 
@@ -53,19 +55,6 @@ class Main(QMainWindow, from_main):
 
     def hash_choice_game(self, mysteriousWord, letterWin):
 
-        """newt = ""
-        telephone = self.telephone()
-        l = len(telephone)
-        hash = "*"
-
-        for leter in range(l):
-
-            t = telephone[leter]
-            newt += hash
-
-            self.lbl_pendu.setText(newt)
-
-        return telephone"""
         hash = "*"
         wordHash = ""
 
