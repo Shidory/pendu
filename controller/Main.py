@@ -47,7 +47,10 @@ class Main(QMainWindow, from_main):
         return wordGame
 
     def get_letter(self):
-        pass
+
+        letterN = self.btn_n.text().lower()
+
+        return letterN
 
     def btn_n_clicked(self):
 
