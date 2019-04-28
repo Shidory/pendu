@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4182471-9bdf-4ac7-8038-ef7f3bee55a8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/Main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,7 +16,7 @@
         <entry file="file://$PROJECT_DIR$/controller/Main.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="287">
-              <caret line="86" selection-start-line="86" selection-end-line="86" />
+              <caret line="89" column="13" selection-start-line="89" selection-start-column="13" selection-end-line="89" selection-end-column="13" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -195,13 +194,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554639008712</updated>
-    </task>
-    <task id="LOCAL-00022" summary="[ADD]set choiceGame to label pendu">
-      <created>1555791085308</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1555791085308</updated>
     </task>
     <task id="LOCAL-00023" summary="[ADD]return the Choice Game">
       <created>1555791171682</created>
@@ -539,7 +531,14 @@
       <option name="project" value="LOCAL" />
       <updated>1556484312444</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="[ADD]set hash word game">
+      <created>1556485401848</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1556485401848</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -566,7 +565,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[ADD]in_choiceGame method" />
     <MESSAGE value="[ADD]refactor" />
     <MESSAGE value="[UPDATE]by inChoiceGame" />
     <MESSAGE value="[ADD]try to get and send leter" />
@@ -591,7 +589,8 @@
     <MESSAGE value="[DELETE]method de_hash_game" />
     <MESSAGE value="[DELETE]method btn_n_clicked" />
     <MESSAGE value="[DELETE]method btn_valider_clicked" />
-    <option name="LAST_COMMIT_MESSAGE" value="[DELETE]method btn_valider_clicked" />
+    <MESSAGE value="[ADD]set hash word game" />
+    <option name="LAST_COMMIT_MESSAGE" value="[ADD]set hash word game" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pendu.py">
@@ -621,7 +620,7 @@
     <entry file="file://$PROJECT_DIR$/controller/Main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="287">
-          <caret line="86" selection-start-line="86" selection-end-line="86" />
+          <caret line="89" column="13" selection-start-line="89" selection-start-column="13" selection-end-line="89" selection-end-column="13" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
