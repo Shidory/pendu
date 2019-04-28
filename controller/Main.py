@@ -122,9 +122,13 @@ class Main(QMainWindow, from_main):
 
     def pendu(self):
 
+        letter = self.get_letter()
         mysteriousWord = self.telephone()
         letterWin = []
         wordWin = self.hash_choice_game(mysteriousWord, letterWin)
+
+        if letter in mysteriousWord:
+            letterWin.append(letter)
 
 # main function
 def main():
