@@ -114,12 +114,6 @@ class Main(QMainWindow, from_main):
         for leter in hashGame:
             pass
 
-    def in_choice_game(self, leter):
-        pass
-        """if leter in choiceGame:
-
-            pass"""
-
     def pendu(self):
 
         letter = self.get_letter()
@@ -129,7 +123,7 @@ class Main(QMainWindow, from_main):
 
         if letter in mysteriousWord:
             letterWin.append(letter)
-            self.lbl_pendu.setText(letterWin)
+            self.lbl_pendu.setText(letterWin[0])
 
 # main function
 def main():
