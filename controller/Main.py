@@ -121,7 +121,8 @@ class Main(QMainWindow, from_main):
             pass"""
 
     def pendu(self):
-        pass
+
+        mysteriousWord = self.telephone()
 
 # main function
 def main():
