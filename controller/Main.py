@@ -87,7 +87,7 @@ class Main(QMainWindow, from_main):
 
         if letter in mysteriousWord:
             letterWin.append(letter)
-            #self.lbl_pendu.setText(letterWin)
+            self.hash_choice_game(mysteriousWord, letterWin)
 
 # main function
 def main():
