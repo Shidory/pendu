@@ -52,14 +52,6 @@ class Main(QMainWindow, from_main):
 
         return letterN
 
-    def btn_n_clicked(self):
-
-        n = self.btn_n.text().lower()
-
-        if n == "n":
-
-            inChoiceGame = self.in_choice_game(n)
-
     def btn_valider_clicked(self):
 
         letter = self.let_game.text()

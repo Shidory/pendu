@@ -16,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controller/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="107" selection-start-line="107" selection-end-line="107" />
+            <state relative-caret-position="116">
+              <caret line="53" selection-start-line="53" selection-end-line="53" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -195,20 +195,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554639008712</updated>
-    </task>
-    <task id="LOCAL-00018" summary="[ADD]exec telephone method if combo box's current text  equals to Telephone">
-      <created>1555789986439</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1555789986439</updated>
-    </task>
-    <task id="LOCAL-00019" summary="[ADD]return choiceRandom">
-      <created>1555790118166</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1555790118166</updated>
     </task>
     <task id="LOCAL-00020" summary="[ADD]try to set choiceRandom text to label pendu">
       <created>1555790527734</created>
@@ -539,7 +525,21 @@
       <option name="project" value="LOCAL" />
       <updated>1556481657020</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="[DELETE]method compare">
+      <created>1556481708216</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1556481708216</updated>
+    </task>
+    <task id="LOCAL-00068" summary="[DELETE]method de_hash_game">
+      <created>1556481727015</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1556481727015</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -566,8 +566,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[ADD]get result" />
-    <MESSAGE value="[ADD]return result" />
     <MESSAGE value="[ADD]call method compare" />
     <MESSAGE value="[ADD]get btn_n's text value for test" />
     <MESSAGE value="[ADD]in_choiceGame method" />
@@ -591,7 +589,9 @@
     <MESSAGE value="[ADD]letter return by get_letter method" />
     <MESSAGE value="[ADD]trying to set letterWin text in label" />
     <MESSAGE value="[DELETE]method in_choice_game" />
-    <option name="LAST_COMMIT_MESSAGE" value="[DELETE]method in_choice_game" />
+    <MESSAGE value="[DELETE]method compare" />
+    <MESSAGE value="[DELETE]method de_hash_game" />
+    <option name="LAST_COMMIT_MESSAGE" value="[DELETE]method de_hash_game" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pendu.py">
@@ -620,8 +620,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/controller/Main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="107" selection-start-line="107" selection-end-line="107" />
+        <state relative-caret-position="116">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
