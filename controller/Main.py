@@ -123,6 +123,7 @@ class Main(QMainWindow, from_main):
     def pendu(self):
 
         mysteriousWord = self.telephone()
+        wordWin = []
 
 # main function
 def main():

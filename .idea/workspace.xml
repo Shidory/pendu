@@ -16,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controller/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="123" column="12" selection-start-line="123" selection-start-column="12" selection-end-line="123" selection-end-column="12" />
+            <state relative-caret-position="237">
+              <caret line="125" column="12" selection-start-line="125" selection-start-column="12" selection-end-line="125" selection-end-column="12" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -195,20 +195,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554639008712</updated>
-    </task>
-    <task id="LOCAL-00010" summary="[ADD]instantiation of object wordGame">
-      <created>1555782898309</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1555782898309</updated>
-    </task>
-    <task id="LOCAL-00011" summary="[ADD]random choice">
-      <created>1555782947288</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1555782947288</updated>
     </task>
     <task id="LOCAL-00012" summary="[DELETE]ch object">
       <created>1555786748387</created>
@@ -539,7 +525,21 @@
       <option name="project" value="LOCAL" />
       <updated>1556479740099</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="[ADD]pendu method">
+      <created>1556480027586</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1556480027587</updated>
+    </task>
+    <task id="LOCAL-00060" summary="[ADD]mysteriousWord">
+      <created>1556480181496</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1556480181497</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -566,8 +566,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[ADD]btn_n_clicked method" />
-    <MESSAGE value="[ADD]de_hash_choice_game method" />
     <MESSAGE value="[ADD]compare method" />
     <MESSAGE value="[ADD]choiceGame and hashGame for test" />
     <MESSAGE value="[ADD]parcour hashGame" />
@@ -591,7 +589,9 @@
     <MESSAGE value="[ADD]get_leter method" />
     <MESSAGE value="[UPDATE]refactor" />
     <MESSAGE value="[ADD]return letterN" />
-    <option name="LAST_COMMIT_MESSAGE" value="[ADD]return letterN" />
+    <MESSAGE value="[ADD]pendu method" />
+    <MESSAGE value="[ADD]mysteriousWord" />
+    <option name="LAST_COMMIT_MESSAGE" value="[ADD]mysteriousWord" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pendu.py">
@@ -620,8 +620,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/controller/Main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="123" column="12" selection-start-line="123" selection-start-column="12" selection-end-line="123" selection-end-column="12" />
+        <state relative-caret-position="237">
+          <caret line="125" column="12" selection-start-line="125" selection-start-column="12" selection-end-line="125" selection-end-column="12" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
