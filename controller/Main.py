@@ -123,7 +123,8 @@ class Main(QMainWindow, from_main):
     def pendu(self):
 
         mysteriousWord = self.telephone()
-        wordWin = []
+        letterWin = []
+        wordWin = self.hash_choice_game(mysteriousWord, letterWin)
 
 # main function
 def main():
