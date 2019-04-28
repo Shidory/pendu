@@ -106,14 +106,6 @@ class Main(QMainWindow, from_main):
     def de_hash_choice_game(self):
         pass
 
-    def compare(self):
-
-        choiceGame = 1
-        hashGame = 1
-
-        for leter in hashGame:
-            pass
-
     def pendu(self):
 
         letter = self.get_letter()
