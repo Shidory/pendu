@@ -48,6 +48,7 @@ class Main(QMainWindow, from_main):
 
     def letter_clicked(self):
 
+        """allows to activate the signal for the isChecked method"""
         self.btn_n.setCheckable(True)
         #self.btn_n.toggle()
 
