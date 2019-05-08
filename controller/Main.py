@@ -35,7 +35,7 @@ class Main(QMainWindow, from_main):
         #self.btn_n.clicked.connect(self.btn_n_clicked)
         #self.btn_n.clicked.connect(self.pendu)
         #self.pendu()
-        self.btn_n.clicked.connect(self.letter_clicked)
+        self.btn_n.clicked.connect(self.letter_clicked(self.btn_n.text()))
 
     """Method who return telephone choices"""
     def telephone(self):
