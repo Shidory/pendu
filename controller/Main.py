@@ -34,7 +34,8 @@ class Main(QMainWindow, from_main):
         #self.cbx_choice_action()
         #self.btn_n.clicked.connect(self.btn_n_clicked)
         #self.btn_n.clicked.connect(self.pendu)
-        self.pendu()
+        #self.pendu()
+        self.btn_n.clicked.connect(self.letter_clicked)
 
     """Method who return telephone choices"""
     def telephone(self):
@@ -44,8 +45,17 @@ class Main(QMainWindow, from_main):
         wordGame = choiceWord[0]
 
         return wordGame
+
     def letter_clicked(self):
-        pass
+
+        self.btn_n.setCheckable(True)
+        #self.btn_n.toggle()
+
+        if self.btn_n.isChecked():
+            print("cool enfin")
+            self.btn_n.setCheckable(False)
+        else:
+            self.btn_n.setCheckable(True)
 
     def get_letter(self):
 
