@@ -48,19 +48,20 @@ class Main(QMainWindow, from_main):
 
     def letter_clicked(self):
 
-        """allows to activate the signal for the isChecked method"""
-        self.btn_n.setCheckable(True)
+
+        self.btn_n.setCheckable(True)  #  Allows to activate the signal for the isChecked method
         #self.btn_n.toggle()
 
         if self.btn_n.isChecked():
             print("cool enfin")
             self.btn_n.setCheckable(False)
+
         else:
             self.btn_n.setCheckable(True)
 
     def get_letter(self):
 
-        letterN = self.btn_n.text().lower()
+        #letterN = self.btn_n.text().lower()
 
         return letterN
 
