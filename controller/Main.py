@@ -35,7 +35,7 @@ class Main(QMainWindow, from_main):
         #self.btn_n.clicked.connect(self.btn_n_clicked)
         #self.btn_n.clicked.connect(self.pendu)
         #self.pendu()
-        self.btn_n.clicked.connect(self.letter_clicked(self.btn_n.text()))
+        self.btn_n.clicked.connect(self.get_letter(self.btn_n.text()))
 
     """Method who return telephone choices"""
     def telephone(self):
@@ -59,11 +59,10 @@ class Main(QMainWindow, from_main):
         else:
             self.btn_n.setCheckable(True)
 
-    def get_letter(self):
+    """Method that retrieves a letter."""
+    def get_letter(self, letter):
 
-        #letterN = self.btn_n.text().lower()
-
-        return letterN
+        return letter
 
     def hash_choice_game(self, mysteriousWord, letterWin):
 
